@@ -391,7 +391,7 @@ projects[ask_vopros][download][tag] = "1.1"
 ; Libraries
 libraries[bpi-client][destination] = "modules/bpi/lib"
 libraries[bpi-client][download][type] = "git"
-libraries[bpi-client][download][url] = "http://github.com/ding2/bpi-client.git"
+libraries[bpi-client][download][url] = "https://github.com/ding2/bpi-client.git"
 libraries[bpi-client][download][branch] = "master"
 
 libraries[ckeditor][download][type] = "get"
