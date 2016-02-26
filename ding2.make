@@ -415,7 +415,7 @@ libraries[profiler][download][branch] = "7.x-2.0-beta1"
 libraries[profiler][patch][0] = "http://drupal.org/files/profiler-reverse.patch"
 
 libraries[ting-client][download][type] = "git"
-libraries[ting-client][download][url] = "http://github.com/ding2/ting-client.git"
+libraries[ting-client][download][url] = "https://github.com/ding2/ting-client.git"
 libraries[ting-client][download][branch] = "master"
 libraries[ting-client][destination] = "modules/ting/lib"
 
