@@ -19,6 +19,6 @@ projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "git@github.com:ding2/ding2.git"
 projects[ding2][download][branch] = "master"
 
-; projects[ding2][download][url] = "git@github.com:JrgenGNielsen/ding2.git"
 ; projects[ding2][download][url] = "git@github.com:Arni/ding2.git"
 ; projects[ding2][download][branch] = "tingsearchcontextpr"
+; projects[ding2][download][url] = "git@github.com:JrgenGNielsen/ding2.git"
