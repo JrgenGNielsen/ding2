@@ -86,9 +86,6 @@
           }
         }
       }
-      &.is-hovered {
-        z-index: 2;
-      }
       &.move-right {
         .group-text {
           left: 100%;
@@ -159,14 +156,15 @@
           opacity: 1;
         }
       }
-      // Hide ding list add entity button in teaser view modes.
-      .ding-list-add-button {
+      // Hide ding react add to list button in teaser views.
+      [data-ddb-app="add-to-checklist"] {
         display: none;
       }
 
       // Hover for non touch devices
       &:hover {
         .no-touch & {
+          z-index: 2;
           .ting-cover::after {
             @include transition(opacity $speed $hover-delay $ease);
             opacity: 0;
@@ -335,7 +333,8 @@
           width: 42%;
         }
       }
-      .ding-list-add-button {
+      // Hide ding react add to list button in reference teaser views.
+      [data-ddb-app="add-to-checklist"] {
         display: none;
       }
     }
@@ -837,6 +836,16 @@
           }
         }
       }
+    }
+  }
+
+  // ==========================================================================
+  // Minimal
+  // ==========================================================================
+  &.view-mode-minimal {
+    .field-name-ting-author,
+    .field-name-ting-type {
+      display: inline-block;
     }
   }
 }
